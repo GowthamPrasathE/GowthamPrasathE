@@ -4,18 +4,21 @@ public class Maximum2dArray {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[][] array = {{1, 2, 3},
-						{4, 5, 6},
-						{7, 8, 9}
+		int[][] array = {{1, 10},
+						{4, 230},
+						{700, 450}
 				};
+		int no_of_columns=2;
 		int largest =  array [0][0];
 		for(int i=0;i<array.length;i++){
-			for(int j=0;j<i;j++) {
+			for(int j=0;j<no_of_columns;j++) {
 				if(array[i][j]>largest) {
 					largest = array[i][j];
 				}
 			}
 		}
 		System.out.println(largest);
+		System.out.println("HI");
+		
 	}
 }
