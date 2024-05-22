@@ -19,6 +19,6 @@ public class Maximum2dArray {
 		}
 		System.out.println(largest);
 		System.out.println("HI");
-		
+		System.out.println("HI");
 	}
 }
