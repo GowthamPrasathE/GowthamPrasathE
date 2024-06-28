@@ -2,10 +2,8 @@ package Oops.multiLevelInheritance;
 
 public class Dad extends Grandfather {
 
-	void home(){
+	void home() {
 		System.out.println("2bhk");
 	}
-	
-	
-		
+
 }
