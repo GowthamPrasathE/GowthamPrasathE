@@ -3,6 +3,7 @@ package atb6xRestAssuredLearning.RestAssured.Operations.DeleteRequest;
 import org.hamcrest.Matchers;
 import org.testng.annotations.Test;
 
+import io.qameta.allure.Description;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
@@ -19,7 +20,7 @@ public class DeleteRequest {
 	Response response;
 	ValidatableResponse vr;
 	
-	
+@Description("Test 1")
 	@Test
 	public void postRequest() {
 
